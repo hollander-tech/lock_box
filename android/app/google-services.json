@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "544751736057",
+    "project_id": "lockbox-hollander",
+    "storage_bucket": "lockbox-hollander.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544751736057:android:e77361b01d5931125d3e28",
+        "android_client_info": {
+          "package_name": "com.example.lock_box"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544751736057-3jr0t5l8qdeinr6q3t408tqvbiqtstfh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lock_box",
+            "certificate_hash": "07232bade6b023e4f2215658ee3aaae43f12f604"
+          }
+        },
+        {
+          "client_id": "544751736057-7487pcdk2rdiuueejjlmrponkpp1lsav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu9b6r3mnMjeOgpKJ4E8gIIHcEITg27o0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544751736057-7487pcdk2rdiuueejjlmrponkpp1lsav.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "544751736057-fen62b4nb8kf9kr8igrahs808l8ven8v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lockBox"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
