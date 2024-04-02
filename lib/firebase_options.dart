@@ -21,15 +21,9 @@ class DefaultFirebaseOptions {
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -59,5 +53,23 @@ class DefaultFirebaseOptions {
     projectId: 'lockbox-hollander',
     authDomain: 'lockbox-hollander.firebaseapp.com',
     storageBucket: 'lockbox-hollander.appspot.com',
+  );
+
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyAu9b6r3mnMjeOgpKJ4E8gIIHcEITg27o0',
+    appId: '1:544751736057:android:e77361b01d5931125d3e28',
+    messagingSenderId: '544751736057',
+    projectId: 'lockbox-hollander',
+    storageBucket: 'lockbox-hollander.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBoU4lEtZs-f_ccfhNZYNxMFO6Q86bKAvk',
+    appId: '1:544751736057:ios:d67084699d3f07ad5d3e28',
+    messagingSenderId: '544751736057',
+    projectId: 'lockbox-hollander',
+    storageBucket: 'lockbox-hollander.appspot.com',
+    iosClientId: '544751736057-fen62b4nb8kf9kr8igrahs808l8ven8v.apps.googleusercontent.com',
+    iosBundleId: 'com.example.lockBox',
   );
 }

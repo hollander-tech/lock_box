@@ -34,6 +34,7 @@ class LoginScreenState extends State<LoginScreen> {
           SizedBox(
               width: 320.0,
               child: GoogleSignInButton(
+                onError: (e) => print(e),
                 label: "Sign in with HL Account",
                 loadingIndicator: const CircularProgressIndicator(),
                 clientId: Env.googleClientId,

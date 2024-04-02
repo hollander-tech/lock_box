@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lock_box/providers/passwords.dart';
@@ -35,7 +36,9 @@ class AuthGateState extends State<AuthGate> {
           .collection('passwords');
       _fetchFuture = passwordProvider.fetch();
     }
-    _authService._auth.setPersistence(Persistence.SESSION);
+    if (kIsWeb) {
+      _authService._auth.setPersistence(Persistence.SESSION);
+    }
     super.initState();
   }
 
@@ -52,6 +55,7 @@ class AuthGateState extends State<AuthGate> {
                   ),
                 );
               } else {
+                print("Home");
                 return const HomeScreen();
               }
             })
