@@ -3,9 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>544751736057-fen62b4nb8kf9kr8igrahs808l8ven8v.apps.googleusercontent.com</string>
+	<string>544751736057-6d5kh2vddrcspjubesrrs2uohn27m2og.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.544751736057-fen62b4nb8kf9kr8igrahs808l8ven8v</string>
+	<string>com.googleusercontent.apps.544751736057-6d5kh2vddrcspjubesrrs2uohn27m2og</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>544751736057-3jr0t5l8qdeinr6q3t408tqvbiqtstfh.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBoU4lEtZs-f_ccfhNZYNxMFO6Q86bKAvk</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.lockBox</string>
+	<string>tech.hollander.lockBox</string>
 	<key>PROJECT_ID</key>
 	<string>lockbox-hollander</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:544751736057:ios:d67084699d3f07ad5d3e28</string>
+	<string>1:544751736057:ios:e69b3f8d371358df5d3e28</string>
 </dict>
 </plist>

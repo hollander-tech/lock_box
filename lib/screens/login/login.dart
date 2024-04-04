@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_ui_oauth_google/firebase_ui_oauth_google.dart';
 import 'package:flutter/material.dart';
@@ -37,7 +39,7 @@ class LoginScreenState extends State<LoginScreen> {
                 onError: (e) => print(e),
                 label: "Sign in with HL Account",
                 loadingIndicator: const CircularProgressIndicator(),
-                clientId: Env.googleClientId,
+                clientId: Platform.isIOS ? Env.googleClientIdIos : Platform.isAndroid ? Env.googleClientIdAndroid : Env.googleClientIdWeb,
                 onSignedIn: (UserCredential? credential) =>
                     Navigator.pushReplacement(
                         context,

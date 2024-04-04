@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:firebase_ui_oauth_google/firebase_ui_oauth_google.dart';
@@ -17,7 +19,9 @@ Future<void> main() async {
 
 
   FirebaseUIAuth.configureProviders([
-    GoogleProvider(clientId: Env.googleClientId),
+    GoogleProvider(
+        clientId: Platform.isIOS ? Env.googleClientIdIos : Platform.isAndroid ? Env.googleClientIdAndroid : Env.googleClientIdWeb,
+    ),
   ]);
   runApp(ChangeNotifierProvider(
     create: (context) => PasswordProvider(),

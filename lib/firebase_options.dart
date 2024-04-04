@@ -65,11 +65,12 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBoU4lEtZs-f_ccfhNZYNxMFO6Q86bKAvk',
-    appId: '1:544751736057:ios:d67084699d3f07ad5d3e28',
+    appId: '1:544751736057:ios:e69b3f8d371358df5d3e28',
     messagingSenderId: '544751736057',
     projectId: 'lockbox-hollander',
     storageBucket: 'lockbox-hollander.appspot.com',
-    iosClientId: '544751736057-fen62b4nb8kf9kr8igrahs808l8ven8v.apps.googleusercontent.com',
-    iosBundleId: 'com.example.lockBox',
+    androidClientId: '544751736057-3jr0t5l8qdeinr6q3t408tqvbiqtstfh.apps.googleusercontent.com',
+    iosClientId: '544751736057-6d5kh2vddrcspjubesrrs2uohn27m2og.apps.googleusercontent.com',
+    iosBundleId: 'tech.hollander.lockBox',
   );
 }

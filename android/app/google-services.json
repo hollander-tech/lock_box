@@ -39,10 +39,10 @@
               "client_type": 3
             },
             {
-              "client_id": "544751736057-fen62b4nb8kf9kr8igrahs808l8ven8v.apps.googleusercontent.com",
+              "client_id": "544751736057-9tc07pfb143qcob2m93ll0atlbdfe30b.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.lockBox"
+                "bundle_id": "com.example.lockBox.RunnerTests"
               }
             }
           ]
